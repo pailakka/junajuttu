@@ -1,0 +1,7 @@
+.timetablerow-noncommercial {
+    font-style: italic;
+}
+
+.timetablerow-estimated {
+    color: blue;
+}

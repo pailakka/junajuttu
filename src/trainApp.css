@@ -1,0 +1,22 @@
+.trainInfoBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainInfoBox {
+    width: 100px;
+    padding: 5px;
+    text-align:  center;
+    border:1px solid gray;
+    margin:2px;
+}
+
+
+.train-running {
+    background-color: green;
+}
+
+.train-late {
+    font-weight: bold;
+    color: red;
+}

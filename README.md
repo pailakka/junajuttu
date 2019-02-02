@@ -878,7 +878,7 @@ import graphql from 'babel-plugin-relay/macro';
 graphql`
   query UserQuery {
     viewer {
-      id
+      key
     }
   }
 `;
