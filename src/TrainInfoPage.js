@@ -10,7 +10,7 @@ import {TimeFormatter} from "./utils";
 import {TrainTrackingTable} from "./TrainTrackingTable";
 
 
-const TimetableRowType = ({trainStopping, type}) => <span>{trainStopping ? type : 'PASSES'}</span>;
+const TimetableRowType = ({trainStopping, type}) => <span>{trainStopping ? type : 'PASS'}</span>;
 
 const timetableRowDeduplicateKey = (tt) => [tt.stationShortCode, tt.trainStopping && tt.type].toString();
 
